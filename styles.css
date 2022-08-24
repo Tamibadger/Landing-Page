@@ -8,7 +8,7 @@ body{
     margin:0;
 }
 body > *{
-padding: 20px 15vh;
+padding: 20px 200px;
 }
 .header{
     border: 1px solid red;
@@ -39,8 +39,8 @@ padding: 20px 15vh;
     justify-content: space-between;
     gap:50px;
     align-items:center;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 .awesomewebsite{
@@ -52,7 +52,14 @@ padding: 20px 15vh;
 .container1right{
 background-color: grey;
 color:white;
-padding:75px 150px;
+padding:100px;
+border: 1px solid red;
+
+}
+.placeholder{
+    width:250px;
+    border: 1px solid red;
+    text-align: center;
 }
 .subtext{
     font-size: 18px;
@@ -65,4 +72,45 @@ button{
     padding:5px 20px;
     border-radius:6px;
     border:none;
+}
+.container2{
+    border: 1px solid red;
+}
+.randominfo
+{
+    border: 1px solid red;
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight:bolder;
+    color:#1F2937;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.box
+{
+    width:150px;
+    height:150px;
+    border: 5px solid #3882F6;
+    border-radius:8px;
+}
+.smallimages{
+    border: 1px solid red;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:50px;
+    margin-top:20px;
+    margin-bottom: 75px;
+
+}
+.smallimage{
+    border: 1px solid green;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.somesubtext{
+    width:150px;
+    text-align: center;
 }
